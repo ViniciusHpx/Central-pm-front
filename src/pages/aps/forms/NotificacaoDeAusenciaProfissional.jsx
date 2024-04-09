@@ -13,7 +13,7 @@ function NotificacaoDeAusenciaProfissional() {
     function verificaPermissao() {
         axios({
             method: "post",
-            url: "https://central-pm-api-v2.onrender.com/users/checksession",
+            url: "https://central-pm-api-dev.onrender.com/users/checksession",
             data: {
                 token: token,
             },

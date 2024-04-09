@@ -35,7 +35,7 @@ function AlteracaoSenha() {
 
         axios({
             method: "post",
-            url: "https://central-pm-api-v2.onrender.com/users/changepassword",
+            url: "https://central-pm-api-dev.onrender.com/users/changepassword",
             data: {
                 token: token,
                 senha: senha,

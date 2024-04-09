@@ -48,7 +48,7 @@ function Reunioessms() {
         }
         await axios({
             method: "post",
-            url: "https://central-pm-api-v2.onrender.com/users/checksession",
+            url: "https://central-pm-api-dev.onrender.com/users/checksession",
             data: {
                 token: token,
             },
@@ -63,7 +63,7 @@ function Reunioessms() {
                 }
                 axios({
                     method: "post",
-                    url: "https://central-pm-api-v2.onrender.com/ata/",
+                    url: "https://central-pm-api-dev.onrender.com/ata/",
                     data: {
                         titulo: titulo,
                         link: link,
@@ -106,7 +106,7 @@ function Reunioessms() {
     function getReunioes() {
         axios({
             method: "get",
-            url: "https://central-pm-api-v2.onrender.com/ata",
+            url: "https://central-pm-api-dev.onrender.com/ata",
             headers: {
                 authorization: token,
             },
@@ -128,7 +128,7 @@ function Reunioessms() {
         if (confirmacao) {
             axios({
                 method: "delete",
-                url: `https://central-pm-api-v2.onrender.com/ata/${id}`,
+                url: `https://central-pm-api-dev.onrender.com/ata/${id}`,
                 headers: {
                     authorization: token,
                 },

@@ -7,7 +7,7 @@ import io from "socket.io-client";
 
 function Tracker() {
     useEffect(() => {
-        const socket = io("https://central-pm-api-v2.onrender.com");
+        const socket = io("https://central-pm-api-dev.onrender.com");
         socket.connect();
         socket.on("online_users", (onlineUsers) => {
             setUsers(onlineUsers);
@@ -26,7 +26,7 @@ function Tracker() {
     function verificaPermissao() {
         axios({
             method: "post",
-            url: "https://central-pm-api-v2.onrender.com/users/checksession",
+            url: "https://central-pm-api-dev.onrender.com/users/checksession",
             data: {
                 token: token,
             },

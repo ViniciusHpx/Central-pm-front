@@ -37,7 +37,7 @@ function Usuarios() {
     function verificaPermissao() {
         axios({
             method: "post",
-            url: "https://central-pm-api-v2.onrender.com/users/checksession",
+            url: "https://central-pm-api-dev.onrender.com/users/checksession",
             data: {
                 token: token,
             },
@@ -66,7 +66,7 @@ function Usuarios() {
     function listarUsuarios() {
         axios({
             method: "get",
-            url: "https://central-pm-api-v2.onrender.com/users",
+            url: "https://central-pm-api-dev.onrender.com/users",
             headers: {
                 authorization: token,
             },
@@ -84,7 +84,7 @@ function Usuarios() {
         setLoading(true);
         await axios({
             method: "get",
-            url: `https://central-pm-api-v2.onrender.com/users/${id}`,
+            url: `https://central-pm-api-dev.onrender.com/users/${id}`,
             headers: {
                 authorization: token,
             },
@@ -153,7 +153,7 @@ function Usuarios() {
 
         await axios({
             method: "put",
-            url: `https://central-pm-api-v2.onrender.com/users/`,
+            url: `https://central-pm-api-dev.onrender.com/users/`,
             data: {
                 id: idUser,
                 nome,
@@ -273,7 +273,7 @@ function Usuarios() {
         setBtnLoading(true);
         axios({
             method: "post",
-            url: "https://central-pm-api-v2.onrender.com/users",
+            url: "https://central-pm-api-dev.onrender.com/users",
             data: {
                 nome: nome,
                 usuario: usuario,
@@ -326,7 +326,7 @@ function Usuarios() {
 
         axios({
             method: "delete",
-            url: `https://central-pm-api-v2.onrender.com/users/${id}`,
+            url: `https://central-pm-api-dev.onrender.com/users/${id}`,
             headers: {
                 authorization: token,
             },

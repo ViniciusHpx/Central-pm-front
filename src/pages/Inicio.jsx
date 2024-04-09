@@ -16,7 +16,7 @@ function Inicio() {
     async function getAvisos() {
         axios({
             method: "get",
-            url: "https://central-pm-api-v2.onrender.com/avisos",
+            url: "https://central-pm-api-dev.onrender.com/avisos",
             headers: {
                 authorization: token,
             },

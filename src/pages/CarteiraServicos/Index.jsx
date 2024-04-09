@@ -48,7 +48,7 @@ function CarteiraServicos() {
         }
         await axios({
             method: "post",
-            url: "https://central-pm-api-v2.onrender.com/users/checksession",
+            url: "https://central-pm-api-dev.onrender.com/users/checksession",
             data: {
                 token: token,
             },
@@ -63,7 +63,7 @@ function CarteiraServicos() {
                 }
                 axios({
                     method: "post",
-                    url: "https://central-pm-api-v2.onrender.com/carteiraservicos/",
+                    url: "https://central-pm-api-dev.onrender.com/carteiraservicos/",
                     data: {
                         titulo: titulo,
                         link: link,
@@ -106,7 +106,7 @@ function CarteiraServicos() {
     function getProtocolos() {
         axios({
             method: "get",
-            url: "https://central-pm-api-v2.onrender.com/carteiraservicos",
+            url: "https://central-pm-api-dev.onrender.com/carteiraservicos",
             headers: {
                 authorization: token,
             },
@@ -127,7 +127,7 @@ function CarteiraServicos() {
         if (confirmacao) {
             axios({
                 method: "delete",
-                url: `https://central-pm-api-v2.onrender.com/carteiraservicos/${id}`,
+                url: `https://central-pm-api-dev.onrender.com/carteiraservicos/${id}`,
                 headers: {
                     authorization: token,
                 },

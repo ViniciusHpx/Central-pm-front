@@ -47,7 +47,7 @@ function Index() {
         }
         axios({
             method: "put",
-            url: `https://central-pm-api-v2.onrender.com/avisos`,
+            url: `https://central-pm-api-dev.onrender.com/avisos`,
             data: {
                 id,
                 titulo,
@@ -82,7 +82,7 @@ function Index() {
         }
         axios({
             method: "post",
-            url: `https://central-pm-api-v2.onrender.com/avisos`,
+            url: `https://central-pm-api-dev.onrender.com/avisos`,
             data: {
                 titulo,
                 tipo,
@@ -110,7 +110,7 @@ function Index() {
         }
         axios({
             method: "delete",
-            url: `https://central-pm-api-v2.onrender.com/avisos/${id}`,
+            url: `https://central-pm-api-dev.onrender.com/avisos/${id}`,
             headers: {
                 authorization: token,
             },
@@ -127,7 +127,7 @@ function Index() {
     async function getAvisos() {
         axios({
             method: "get",
-            url: "https://central-pm-api-v2.onrender.com/avisos",
+            url: "https://central-pm-api-dev.onrender.com/avisos",
             headers: {
                 authorization: token,
             },
@@ -143,7 +143,7 @@ function Index() {
     function verificaPermissao() {
         axios({
             method: "post",
-            url: "https://central-pm-api-v2.onrender.com/users/checksession",
+            url: "https://central-pm-api-dev.onrender.com/users/checksession",
             data: {
                 token: token,
             },

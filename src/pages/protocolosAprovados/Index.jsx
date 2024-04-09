@@ -48,7 +48,7 @@ function ProtocolosAprovados() {
         }
         await axios({
             method: "post",
-            url: "https://central-pm-api-v2.onrender.com/users/checksession",
+            url: "https://central-pm-api-dev.onrender.com/users/checksession",
             data: {
                 token: token,
             },
@@ -63,7 +63,7 @@ function ProtocolosAprovados() {
                 }
                 axios({
                     method: "post",
-                    url: "https://central-pm-api-v2.onrender.com/protocolos/",
+                    url: "https://central-pm-api-dev.onrender.com/protocolos/",
                     data: {
                         titulo: titulo,
                         link: link,
@@ -106,7 +106,7 @@ function ProtocolosAprovados() {
     function getProtocolos() {
         axios({
             method: "get",
-            url: "https://central-pm-api-v2.onrender.com/protocolos",
+            url: "https://central-pm-api-dev.onrender.com/protocolos",
             headers: {
                 authorization: token,
             },
@@ -127,7 +127,7 @@ function ProtocolosAprovados() {
         if (confirmacao) {
             axios({
                 method: "delete",
-                url: `https://central-pm-api-v2.onrender.com/protocolos/${id}`,
+                url: `https://central-pm-api-dev.onrender.com/protocolos/${id}`,
                 headers: {
                     authorization: token,
                 },

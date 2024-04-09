@@ -16,7 +16,7 @@ function Login() {
         setLoading(true);
         axios({
             method: "post",
-            url: "https://central-pm-api-v2.onrender.com/users/session",
+            url: "https://central-pm-api-dev.onrender.com/users/session",
             data: {
                 usuario: login,
                 senha: senha,
