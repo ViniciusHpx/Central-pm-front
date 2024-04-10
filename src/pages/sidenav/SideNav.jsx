@@ -231,6 +231,20 @@ function SideNav({ activeLink }) {
                         </Link>
                     </li>
 
+                    <li className="nav-item">
+                        <Link
+                            to="/lancamentos"
+                            className={
+                                activeLink === "lancamentos"
+                                    ? "nav-link link-body-emphasis active"
+                                    : "nav-link link-body-emphasis"
+                            }
+                        >
+                            <i className="bi bi-file-earmark-check-fill ps-3 me-2"></i>
+                            <span className="navspan">Lançamentos</span>
+                        </Link>
+                    </li>
+
                     <li className="nav-item  dropdown dropend">
                         <a
                             className={

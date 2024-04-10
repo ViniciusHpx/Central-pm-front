@@ -214,6 +214,7 @@ import AscensaoOdontoAlmox from "../pages/compras/almoxarifado/AscensaoOdontoAlm
 import BelvedereOdontoAlmox from "../pages/compras/almoxarifado/BelvedereOdontoAlmox";
 import CaicOdontoAlmox from "../pages/compras/almoxarifado/CaicOdontoAlmox";
 import ComissaoEmergencia from "../pages/comissaoEmergencia/Index";
+import Lancamentos from "../pages/lancamentos/index";
 import DomboscoOdontoAlmox from "../pages/compras/almoxarifado/DomboscoOdontoAlmox";
 import JkOdontoAlmox from "../pages/compras/almoxarifado/JkOdontoAlmox";
 import JoaoPauloIIOdontoAlmox from "../pages/compras/almoxarifado/JoaoPauloIIOdontoAlmox";
@@ -1494,6 +1495,14 @@ function RoutesApp() {
                 element={
                     <Private>
                         <ComissaoEmergencia />
+                    </Private>
+                }
+            />
+            <Route
+                path="/lancamentos"
+                element={
+                    <Private>
+                        <Lancamentos />
                     </Private>
                 }
             />

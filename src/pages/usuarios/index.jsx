@@ -785,6 +785,22 @@ function Usuarios() {
                                     </label>
                                 </div>
                             </div>
+                            <div className="col">
+                                <div className="form-check">
+                                    <input
+                                        className="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="lancamentos"
+                                    />
+                                    <label
+                                        className="form-check-label"
+                                        htmlFor="lancamentos"
+                                    >
+                                        Lancamentos
+                                    </label>
+                                </div>
+                            </div>
 
                             <div className="col">
                                 <div className="form-check">
