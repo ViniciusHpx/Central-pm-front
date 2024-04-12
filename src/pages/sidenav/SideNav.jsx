@@ -1333,6 +1333,15 @@ function SideNav({ activeLink }) {
                                     OFTAMOLOGIA RDQA - 2023
                                 </Link>
                             </li>
+                            <li>
+                                <Link
+                                    to="/oftamologia/sheets/rdqa2024"
+                                    className="dropdown-item"
+                                >
+                                    <i className="bi bi-clipboard2-data-fill"></i>
+                                    OFTAMOLOGIA RDQA - 2024
+                                </Link>
+                            </li>
                         </ul>
                     </li>
 

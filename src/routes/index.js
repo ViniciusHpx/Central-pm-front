@@ -229,6 +229,7 @@ import SerraVerdeOdontoAlmox from "../pages/compras/almoxarifado/SerraVerdeOdont
 import TavaresOdontoAlmox from "../pages/compras/almoxarifado/TavaresOdontoAlmox";
 import TorneirosOdontoAlmox from "../pages/compras/almoxarifado/TorneirosOdontoAlmox";
 import VilaFerreiraOdontoAlmox from "../pages/compras/almoxarifado/VilaFerreiraOdontoAlmox";
+import RdqaOftamologia2024 from "../pages/oftamologia/sheets/Rdqa2024";
 
 function RoutesApp() {
     return (
@@ -1797,6 +1798,14 @@ function RoutesApp() {
                 element={
                     <Private>
                         <RdqaOftamologia2023 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/oftamologia/sheets/rdqa2024"
+                element={
+                    <Private>
+                        <RdqaOftamologia2024 />
                     </Private>
                 }
             />
