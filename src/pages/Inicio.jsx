@@ -53,6 +53,12 @@ function Inicio() {
                         >
                             Site Prefeitura
                         </Tabs.Tab>
+                        <Tabs.Tab
+                            value="sidim"
+                            icon={<IconWorldWww size="1rem" />}
+                        >
+                            Sidim
+                        </Tabs.Tab>
                     </Tabs.List>
 
                     <Tabs.Panel value="avisos" pt="xs">
@@ -92,6 +98,13 @@ function Inicio() {
                     <Tabs.Panel value="prefeitura" pt="xs">
                         <iframe
                             src="https://portal-novo.parademinas.mg.gov.br/"
+                            frameborder="0"
+                            style={{ width: "120%", height: "50rem" }}
+                        ></iframe>
+                    </Tabs.Panel>
+                    <Tabs.Panel value="sidim" pt="xs">
+                        <iframe
+                            src="https://sidim.no-ip.net/saude_parademinas/"
                             frameborder="0"
                             style={{ width: "120%", height: "50rem" }}
                         ></iframe>
