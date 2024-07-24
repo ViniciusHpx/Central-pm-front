@@ -4082,6 +4082,27 @@ function Usuarios() {
                                     </div>
                                 </details>
                             </div>
+                            <div className="col-3">
+                                <details>
+                                    <summary>
+                                        Instrumento de Planejamento do SUS
+                                    </summary>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="PlanoMunicipalDeSaude"
+                                        />
+                                        <label
+                                            className="form-check-label"
+                                            htmlFor="PlanoMunicipalDeSaude"
+                                        >
+                                            PLANO MUNICIPAL DE SAÚDE
+                                        </label>
+                                    </div>
+                                </details>
+                            </div>
                         </div>
                     </div>
                 )}

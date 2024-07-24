@@ -336,6 +336,141 @@ function SideNav({ activeLink }) {
                             </li>
                         </ul>
                     </li>
+                    <li className="nav-item  dropdown dropend">
+                        <a
+                            className={
+                                activeLink === "instrumentodeplanejamentodosus"
+                                    ? "nav-link link-body-emphasis dropdown-toggle active"
+                                    : "nav-link link-body-emphasis dropdown-toggle"
+                            }
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            <i className="bi bi-file-earmark-text-fill ps-3 me-2"></i>
+                            <span className="navspan tes">
+                                Instrumento de Planejamento do SUS
+                            </span>
+                        </a>
+                        <ul className="dropdown-menu">
+                            <li>
+                                <Link
+                                    to="/planomunicipaldesaude"
+                                    className="dropdown-item drop"
+                                >
+                                    <i className="bi bi-file-earmark-check-fill"></i>
+                                    PLANO MUNICIPAL DE SAÚDE 2022 - 2025
+                                </Link>
+                            </li>
+                            <li className="dropdown-submenu">
+                                <Link
+                                    to="#"
+                                    className="dropdown-item dropdown-toggle"
+                                >
+                                    <i className="bi bi-file-earmark-check-fill"></i>
+                                    PROGRAMAÇÃO ANUAL DE SAÚDE (PAS)
+                                </Link>
+                                <ul className="dropdown-menu">
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            PAS 2022
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            PAS 2023
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            PAS 2024
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            PAS 2025
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className="dropdown-submenu">
+                                <Link
+                                    to="#"
+                                    className="dropdown-item dropdown-toggle"
+                                >
+                                    <i className="bi bi-file-earmark-check-fill"></i>
+                                    RELATÓRIO DETALHADO DO QUADRIMESTRE ANTERIOR
+                                    (RDQA)
+                                </Link>
+                                <ul className="dropdown-menu">
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            1° RDQA 2024
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            2° RDQA 2024
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            3° RDQA 2024
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className="dropdown-submenu">
+                                <Link
+                                    to="#"
+                                    className="dropdown-item dropdown-toggle"
+                                >
+                                    <i className="bi bi-file-earmark-check-fill"></i>
+                                    RELATÓRIO ANUAL DE GESTÃO (RAG)
+                                </Link>
+                                <ul className="dropdown-menu">
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            RAG 2022
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            RAG 2023
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            RAG 2024
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="#" className="dropdown-item">
+                                            <i className="bi bi-file-earmark-ruled"></i>
+                                            RAG 2025
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <Link to="#" className="dropdown-item">
+                                    <i className="bi bi-file-earmark-check-fill"></i>
+                                    LEGISLAÇÃO
+                                </Link>
+                            </li>
+                        </ul>
+                    </li>
 
                     <li className="nav-item">
                         <Link

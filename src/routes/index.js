@@ -230,6 +230,7 @@ import TavaresOdontoAlmox from "../pages/compras/almoxarifado/TavaresOdontoAlmox
 import TorneirosOdontoAlmox from "../pages/compras/almoxarifado/TorneirosOdontoAlmox";
 import VilaFerreiraOdontoAlmox from "../pages/compras/almoxarifado/VilaFerreiraOdontoAlmox";
 import RdqaOftamologia2024 from "../pages/oftamologia/sheets/Rdqa2024";
+import PlanoMunicipalDeSaude from "../pages/planoMunicipalDeSaude";
 
 function RoutesApp() {
     return (
@@ -1496,6 +1497,14 @@ function RoutesApp() {
                 element={
                     <Private>
                         <ComissaoEmergencia />
+                    </Private>
+                }
+            />
+            <Route
+                path="/planomunicipaldesaude"
+                element={
+                    <Private>
+                        <PlanoMunicipalDeSaude />
                     </Private>
                 }
             />

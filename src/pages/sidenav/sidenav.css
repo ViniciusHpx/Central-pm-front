@@ -7,7 +7,34 @@
     z-index: 2;
     overflow-y: scroll;
 }
+.nav-item a {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+/* Aqui está o css de centralização*/
+.dropdown-submenu {
+    position: relative;
+}
 
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: 0px;
+    margin-left: 0;
+    display: none;
+    position: absolute;
+}
+
+/* Exibir submenu ao passar o mouse sobre o item pai */
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+.tes {
+    display: inline-block;
+    white-space: normal;
+    word-break: break-word;
+}
 .dropdown-item {
     white-space: normal;
 }
