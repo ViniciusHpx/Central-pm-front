@@ -232,6 +232,7 @@ import VilaFerreiraOdontoAlmox from "../pages/compras/almoxarifado/VilaFerreiraO
 import RdqaOftamologia2024 from "../pages/oftamologia/sheets/Rdqa2024";
 import PlanoMunicipalDeSaude from "../pages/planoMunicipalDeSaude";
 import ProgramacaoAnual2022 from "../pages/programcaoAnual2022";
+import ProgramacaoAnual2023 from "../pages/programacaoAnual2023";
 
 function RoutesApp() {
     return (
@@ -1514,6 +1515,14 @@ function RoutesApp() {
                 element={
                     <Private>
                         <ProgramacaoAnual2022 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/programacaoAnual2023"
+                element={
+                    <Private>
+                        <ProgramacaoAnual2023 />
                     </Private>
                 }
             />

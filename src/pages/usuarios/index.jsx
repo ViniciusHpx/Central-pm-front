@@ -4115,6 +4115,20 @@ function Usuarios() {
                                             PROGRAMAÇÃO ANUAL DE SAÚDE 2022
                                         </label>
                                     </div>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="ProgramacaoAnual2023"
+                                        />
+                                        <label
+                                            className="form-check-label"
+                                            htmlFor="ProgramacaoAnual2023"
+                                        >
+                                            PROGRAMAÇÃO ANUAL DE SAÚDE 2023
+                                        </label>
+                                    </div>
                                 </details>
                             </div>
                         </div>
