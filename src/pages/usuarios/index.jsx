@@ -4101,6 +4101,20 @@ function Usuarios() {
                                             PLANO MUNICIPAL DE SAÚDE
                                         </label>
                                     </div>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="ProgramacaoAnual2022"
+                                        />
+                                        <label
+                                            className="form-check-label"
+                                            htmlFor="ProgramacaoAnual2022"
+                                        >
+                                            PROGRAMAÇÃO ANUAL DE SAÚDE 2022
+                                        </label>
+                                    </div>
                                 </details>
                             </div>
                         </div>

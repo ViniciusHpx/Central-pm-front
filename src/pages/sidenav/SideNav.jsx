@@ -373,7 +373,10 @@ function SideNav({ activeLink }) {
                                 </Link>
                                 <ul className="dropdown-menu">
                                     <li>
-                                        <Link to="#" className="dropdown-item">
+                                        <Link
+                                            to="/programacaoAnual2022"
+                                            className="dropdown-item"
+                                        >
                                             <i className="bi bi-file-earmark-ruled"></i>
                                             PAS 2022
                                         </Link>
