@@ -233,6 +233,7 @@ import RdqaOftamologia2024 from "../pages/oftamologia/sheets/Rdqa2024";
 import PlanoMunicipalDeSaude from "../pages/planoMunicipalDeSaude";
 import ProgramacaoAnual2022 from "../pages/programcaoAnual2022";
 import ProgramacaoAnual2023 from "../pages/programacaoAnual2023";
+import ProgramacaoAnual2024 from "../pages/pogramacaoAnual2024";
 
 function RoutesApp() {
     return (
@@ -1523,6 +1524,14 @@ function RoutesApp() {
                 element={
                     <Private>
                         <ProgramacaoAnual2023 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/programacaoAnual2024"
+                element={
+                    <Private>
+                        <ProgramacaoAnual2024 />
                     </Private>
                 }
             />
