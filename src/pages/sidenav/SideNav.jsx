@@ -400,7 +400,10 @@ function SideNav({ activeLink }) {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="dropdown-item">
+                                        <Link
+                                            to="/programacaoAnual2025"
+                                            className="dropdown-item"
+                                        >
                                             <i className="bi bi-file-earmark-ruled"></i>
                                             PAS 2025
                                         </Link>

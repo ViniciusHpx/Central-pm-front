@@ -234,6 +234,7 @@ import PlanoMunicipalDeSaude from "../pages/planoMunicipalDeSaude";
 import ProgramacaoAnual2022 from "../pages/programcaoAnual2022";
 import ProgramacaoAnual2023 from "../pages/programacaoAnual2023";
 import ProgramacaoAnual2024 from "../pages/pogramacaoAnual2024";
+import ProgramacaoAnual2025 from "../pages/programacaoAnual2025";
 
 function RoutesApp() {
     return (
@@ -1532,6 +1533,14 @@ function RoutesApp() {
                 element={
                     <Private>
                         <ProgramacaoAnual2024 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/programacaoAnual2025"
+                element={
+                    <Private>
+                        <ProgramacaoAnual2025 />
                     </Private>
                 }
             />
