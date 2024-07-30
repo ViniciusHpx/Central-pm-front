@@ -236,6 +236,7 @@ import ProgramacaoAnual2023 from "../pages/programacaoAnual2023";
 import ProgramacaoAnual2024 from "../pages/pogramacaoAnual2024";
 import ProgramacaoAnual2025 from "../pages/programacaoAnual2025";
 import Rdqa1 from "../pages/rdqa/rdqa1";
+import Rdqa2 from "../pages/rdqa/rdqa2";
 
 function RoutesApp() {
     return (
@@ -1550,6 +1551,14 @@ function RoutesApp() {
                 element={
                     <Private>
                         <Rdqa1 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/rdqa2"
+                element={
+                    <Private>
+                        <Rdqa2 />
                     </Private>
                 }
             />

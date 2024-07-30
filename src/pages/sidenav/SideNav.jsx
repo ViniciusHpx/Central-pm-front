@@ -430,7 +430,10 @@ function SideNav({ activeLink }) {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="dropdown-item">
+                                        <Link
+                                            to="/rdqa2"
+                                            className="dropdown-item"
+                                        >
                                             <i className="bi bi-file-earmark-ruled"></i>
                                             2° RDQA 2024
                                         </Link>

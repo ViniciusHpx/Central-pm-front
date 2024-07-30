@@ -4171,6 +4171,20 @@ function Usuarios() {
                                             1° RDQA 2024
                                         </label>
                                     </div>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="Rdqa2"
+                                        />
+                                        <label
+                                            className="form-check-label"
+                                            htmlFor="Rdqa2"
+                                        >
+                                            2° RDQA 2024
+                                        </label>
+                                    </div>
                                 </details>
                             </div>
                         </div>
