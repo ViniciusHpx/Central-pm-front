@@ -477,13 +477,19 @@ function SideNav({ activeLink }) {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="dropdown-item">
+                                        <Link
+                                            to="/rag2024"
+                                            className="dropdown-item"
+                                        >
                                             <i className="bi bi-file-earmark-ruled"></i>
                                             RAG 2024
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="#" className="dropdown-item">
+                                        <Link
+                                            to="/rag2025"
+                                            className="dropdown-item"
+                                        >
                                             <i className="bi bi-file-earmark-ruled"></i>
                                             RAG 2025
                                         </Link>
@@ -491,7 +497,10 @@ function SideNav({ activeLink }) {
                                 </ul>
                             </li>
                             <li>
-                                <Link to="#" className="dropdown-item">
+                                <Link
+                                    to="/legislacao"
+                                    className="dropdown-item"
+                                >
                                     <i className="bi bi-file-earmark-check-fill"></i>
                                     LEGISLAÇÃO
                                 </Link>

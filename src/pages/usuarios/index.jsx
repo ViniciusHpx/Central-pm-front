@@ -4227,6 +4227,48 @@ function Usuarios() {
                                             RAG 2023
                                         </label>
                                     </div>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="Rag2024"
+                                        />
+                                        <label
+                                            className="form-check-label"
+                                            htmlFor="Rag2024"
+                                        >
+                                            RAG 2024
+                                        </label>
+                                    </div>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="Rag2025"
+                                        />
+                                        <label
+                                            className="form-check-label"
+                                            htmlFor="Rag2025"
+                                        >
+                                            RAG 2025
+                                        </label>
+                                    </div>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="Legislacao"
+                                        />
+                                        <label
+                                            className="form-check-label"
+                                            htmlFor="Legislacao"
+                                        >
+                                            LEGISLAÇÃO
+                                        </label>
+                                    </div>
                                 </details>
                             </div>
                         </div>

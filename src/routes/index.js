@@ -240,6 +240,9 @@ import Rdqa2 from "../pages/rdqa/rdqa2";
 import Rdqa3 from "../pages/rdqa/rdqa3";
 import Rag2022 from "../pages/relatorioAnual/rag2022";
 import Rag2023 from "../pages/relatorioAnual/rag2023";
+import Rag2024 from "../pages/relatorioAnual/rag2024";
+import Rag2025 from "../pages/relatorioAnual/rag2025";
+import Legislacao from "../pages/legislacao";
 
 function RoutesApp() {
     return (
@@ -1586,6 +1589,30 @@ function RoutesApp() {
                 element={
                     <Private>
                         <Rag2023 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/rag2024"
+                element={
+                    <Private>
+                        <Rag2024 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/rag2025"
+                element={
+                    <Private>
+                        <Rag2025 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/legislacao"
+                element={
+                    <Private>
+                        <Legislacao />
                     </Private>
                 }
             />
