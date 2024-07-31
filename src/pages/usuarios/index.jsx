@@ -4185,6 +4185,48 @@ function Usuarios() {
                                             2° RDQA 2024
                                         </label>
                                     </div>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="Rdqa3"
+                                        />
+                                        <label
+                                            className="form-check-label"
+                                            htmlFor="Rdqa3"
+                                        >
+                                            3° RDQA 2024
+                                        </label>
+                                    </div>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="Rag2022"
+                                        />
+                                        <label
+                                            className="form-check-label"
+                                            htmlFor="Rag2022"
+                                        >
+                                            RAG 2022
+                                        </label>
+                                    </div>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            value=""
+                                            id="Rag2023"
+                                        />
+                                        <label
+                                            className="form-check-label"
+                                            htmlFor="Rag2023"
+                                        >
+                                            RAG 2023
+                                        </label>
+                                    </div>
                                 </details>
                             </div>
                         </div>

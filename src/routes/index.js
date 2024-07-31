@@ -237,6 +237,9 @@ import ProgramacaoAnual2024 from "../pages/pogramacaoAnual2024";
 import ProgramacaoAnual2025 from "../pages/programacaoAnual2025";
 import Rdqa1 from "../pages/rdqa/rdqa1";
 import Rdqa2 from "../pages/rdqa/rdqa2";
+import Rdqa3 from "../pages/rdqa/rdqa3";
+import Rag2022 from "../pages/relatorioAnual/rag2022";
+import Rag2023 from "../pages/relatorioAnual/rag2023";
 
 function RoutesApp() {
     return (
@@ -1559,6 +1562,30 @@ function RoutesApp() {
                 element={
                     <Private>
                         <Rdqa2 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/rdqa3"
+                element={
+                    <Private>
+                        <Rdqa3 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/rag2022"
+                element={
+                    <Private>
+                        <Rag2022 />
+                    </Private>
+                }
+            />
+            <Route
+                path="/rag2023"
+                element={
+                    <Private>
+                        <Rag2023 />
                     </Private>
                 }
             />
